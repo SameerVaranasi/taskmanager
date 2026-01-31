@@ -49,4 +49,26 @@ This project is built for assignment submission using **HTML, CSS, JavaScript** 
 ---
 
 ## 📁 Project Structure
+taskmanager/
+│
+├── backend/
+│ ├── src/
+│ │ ├── server.js
+│ │ ├── app.js
+│ │ ├── db.js
+│ │ ├── utils/jwt.js
+│ │ ├── middleware/auth.js
+│ │ ├── controllers/authController.js
+│ │ ├── controllers/taskController.js
+│ │ ├── routes/authRoutes.js
+│ │ └── routes/taskRoutes.js
+│ ├── database.sql
+│ ├── .env.example
+│ ├── package.json
+│
+└── frontend/
+├── index.html
+├── dashboard.html
+├── css.css
+└── app.js
 
